@@ -1,6 +1,6 @@
 {
   "name": "iostreams-https",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "HTTPS stream provider for iostreams",
   "main": "index.js",
   "directories": {
