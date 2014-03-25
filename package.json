@@ -32,7 +32,8 @@
     "coveralls": "~2.7.1",
     "grunt": "~0.4.2",
     "grunt-mocha-test": "~0.9.3",
-    "grunt-contrib-jshint": "~0.8.0"
+    "grunt-contrib-jshint": "~0.8.0",
+    "iostreams": "~1.0.0"
   },
   "dependencies": {
     "mkdirp": "~0.3.5"
