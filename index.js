@@ -14,6 +14,10 @@ var https = require('https');
 //
 var getInputStream = function(config, callback) {
 
+  if(process.env.ACCEPT_UNAUTHORIZED) {
+    config.rejectUnauthorized = false;
+  }
+
   var req = https.get(config);
 
   req.on('error', function(err) {
